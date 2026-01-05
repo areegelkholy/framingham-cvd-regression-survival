@@ -5,21 +5,24 @@
 ---
 
 ## Project Overview
-This project analyzes cardiovascular disease (CVD) risk using the Framingham Heart Study, combining **statistical modeling**, **survival analysis**, and **simulation-based theory validation**.
 
-The objective is to understand both **whether** and **when** individuals develop CVD, and to examine the relationship between fixed-horizon logistic models and continuous-time survival models.
+This project analyzes cardiovascular disease (CVD) risk using data from the Framingham Heart Study, combining statistical modeling, survival analysis, and simulation-based theory validation.
 
-The work was completed as a graded exam project for the **Regression (2025)** course at the **University of Copenhagen**.
+The objective is to understand both **whether** and **when** individuals develop CVD, and to examine the relationship between fixed-horizon logistic regression models and continuous-time survival models.
+
+This work was completed as a graded exam project for the **Regression (2025)** course at the **University of Copenhagen**.
 
 ---
 
 ## Data
-- **Source:** Framingham Heart Study (`riskCommunicator` R package)
-- **Cohort:** 4,434 individuals followed for up to 24 years
-- **Structure:** Longitudinal examinations (1–3 observations per subject)
-- **Outcomes:**
-  - `CVD`: Binary indicator of cardiovascular disease
-  - `TIMECVD`: Time to first CVD event (right-censored)
+
+- **Source:** Framingham Heart Study (`riskCommunicator` R package)  
+- **Cohort:** 4,434 individuals followed for up to 24 years  
+- **Structure:** Longitudinal examinations (1–3 observations per subject)  
+
+### Outcomes
+- **CVD:** Binary indicator of cardiovascular disease  
+- **TIMECVD:** Time to first CVD event (right-censored)
 
 ---
 
@@ -53,6 +56,7 @@ The work was completed as a graded exam project for the **Regression (2025)** co
 ---
 
 ## Key Findings
+
 - Age, sex, smoking, hypertension, diabetes, and prior cardiac conditions are dominant CVD risk factors  
 - Logistic regression models showed good calibration and moderate discrimination  
 - Survival models confirmed consistent effects in continuous time  
@@ -61,6 +65,7 @@ The work was completed as a graded exam project for the **Regression (2025)** co
 ---
 
 ## Technical Stack
+
 - **Language:** R  
 - **Models:** Logistic regression, Cox proportional hazards  
 - **Methods:** Likelihood ratio testing, calibration, simulation via inverse transform sampling  
@@ -69,8 +74,4 @@ The work was completed as a graded exam project for the **Regression (2025)** co
 ---
 
 ## Repository Contents
-- `src/binaryRegModel.R` — Binary logistic regression models and diagnostics  
-- `src/survival_analysis_eda.ipynb` — EDA and survival analysis workflow  
-- `Regression_Exam_Report.pdf` — Final submitted report  
-
 
