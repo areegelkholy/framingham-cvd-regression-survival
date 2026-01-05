@@ -72,6 +72,3 @@ This work was completed as a graded exam project for the **Regression (2025)** c
 - **Visualization:** ggplot2  
 
 ---
-
-## Repository Contents
-
