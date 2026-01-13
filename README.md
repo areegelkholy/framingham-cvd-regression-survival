@@ -10,8 +10,6 @@ This project analyzes cardiovascular disease (CVD) risk using data from the Fram
 
 The objective is to understand both **whether** and **when** individuals develop CVD, and to examine the relationship between fixed-horizon logistic regression models and continuous-time survival models.
 
-This work was completed as a graded exam project for the **Regression (2025)** course at the **University of Copenhagen**.
-
 ---
 
 ## Data
